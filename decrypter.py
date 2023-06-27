@@ -15,7 +15,7 @@ class Tokener:
     @staticmethod
     def accessFile(self, fileName):
 
-        #Open the file and extract the private key, turn it into a tuple, then make the coded token operable
+        #Open the file, make the coded token operable
         file = open(fileName, 'r')
         private = []
         private += [int(input("Provide private key: "))]
